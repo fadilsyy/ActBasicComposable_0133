@@ -136,7 +136,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             contentAlignment = Alignment.Center
         ){
             Image(painter = gambar,
-                contentDescription = null,
+                contentDescription = "me, conquer",
                 contentScale = ContentScale.Fit)
             Text(text = "My Music",
                 fontSize = 50.sp,
