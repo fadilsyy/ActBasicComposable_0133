@@ -69,6 +69,27 @@ fun TataletakLogin(modifier: Modifier = Modifier) {
                 contentScale = ContentScale.Fit,
                 modifier = Modifier.size(150.dp)
             )
+
+            Spacer(modifier = Modifier.height(60.dp))
+
+            Text(
+                text = "Nama",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red
+            )
+            Text(
+                text = nama,
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
+            Text(
+                text = nim,
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
         }
     }
 }
