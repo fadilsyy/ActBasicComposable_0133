@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
             TestTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     // Panggil composable layout utama dengan padding dari Scaffold
-                    TataletakBoxColumnRow(
+                    TataletakLogin(
                         modifier = Modifier.padding(paddingValues = innerPadding)
                     )
                 }
