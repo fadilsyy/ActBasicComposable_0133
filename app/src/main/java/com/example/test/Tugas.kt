@@ -61,6 +61,14 @@ fun TataletakLogin(modifier: Modifier = Modifier) {
                 fontSize = 16.sp,
                 color = Color.White
             )
+            Spacer(modifier = Modifier.height(40.dp))
+
+            Image(
+                painter = gambarLogo,
+                contentDescription = "Logo",
+                contentScale = ContentScale.Fit,
+                modifier = Modifier.size(150.dp)
+            )
         }
     }
 }
