@@ -29,4 +29,8 @@ fun TataletakLogin(modifier: Modifier = Modifier) {
     val subjudul = "Ini adalah halaman login,"
     val nama = "A. Muh. Fadil Asytar"
     val nim = "20240140133"
+
+    val gambarBackground = painterResource(id = R.drawable.sunset)
+    val gambarLogo = painterResource(id = R.drawable.umy)
+    val gambarProfil = painterResource(id = R.drawable.ntop)
 }
