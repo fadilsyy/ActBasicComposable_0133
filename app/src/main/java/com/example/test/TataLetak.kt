@@ -127,7 +127,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                 }
             }
         }
-        Spacer(modifier = Modifier.height(height = 10.dp))
+        Spacer(modifier = Modifier.height(height = 16.dp))
         Box(
             modifier = modifier
                 .fillMaxWidth()
