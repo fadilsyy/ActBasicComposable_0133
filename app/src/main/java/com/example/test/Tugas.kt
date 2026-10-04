@@ -25,4 +25,8 @@ import androidx.compose.ui.unit.sp
 
 @Composable
 fun TataletakLogin(modifier: Modifier = Modifier) {
+    val judul = "Login"
+    val subjudul = "Ini adalah halaman login,"
+    val nama = "A. Muh. Fadil Asytar"
+    val nim = "20240140133"
 }
