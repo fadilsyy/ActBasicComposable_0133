@@ -33,4 +33,16 @@ fun TataletakLogin(modifier: Modifier = Modifier) {
     val gambarBackground = painterResource(id = R.drawable.sunset)
     val gambarLogo = painterResource(id = R.drawable.umy)
     val gambarProfil = painterResource(id = R.drawable.ntop)
+
+    Box(
+        modifier = modifier.fillMaxSize(),
+        contentAlignment = Alignment.Center
+    ) {
+        Image(
+            painter = gambarBackground,
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
+    }
 }
